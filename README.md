@@ -11,18 +11,19 @@ For this project, you are provided with the `mathematics.csv` file containing a 
    - Create a scatter plot to visualize the relationship between `x` and `y` where `y = x^2`.
    - Ensure that the axes are labeled and the plot has an appropriate title.
 
-2. **Quadratic Regression Line**: **(20%)**  
-   - Use a quadratic regression model to fit the data and plot the best-fit line.
+2. **Logarithmic Regression**: **(20%)**  
+   - Use a logarithmic regression model to fit the data and plot the best-fit line.
    - Visualize this on top of the scatter plot.
-   - Make sure to label the axes and title the plot appropriately.
+   - Make sure to label the axes, add legend and title the plot appropriately.
 
 3. **Polynomial Regression**: **(20%)**  
    - Fit a second-degree polynomial (quadratic regression) to the data and plot the polynomial regression line.
    - Ensure the plot clearly shows both the data points and the regression line.
 
 4. **Additional Complexity**: **(20%)**  
-   - Calculate a new `y` value based on the equation `y = x^3` and add it to the dataset.
-   - Create a **3D plot** visualizing the relationship between `x`, `y(x^2)`, and `y(x^3)`.
+   - Calculate a new `y` value based on the equation `y = sqrt(x)` and add it to the dataset.
+   - Create a **3D plot** visualizing the relationship between `x`, `y(x^2)`, and `y(sqrt(x))`.
+   - Ensure adding legend for the functions/curves - simply add: plt.legend()   
 
 5. **Animation**: **(20%)**  
    - Create an animated plot for `y = x^2`, where the plot progressively adds data points to simulate the evolution of the graph over time.
